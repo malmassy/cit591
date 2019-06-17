@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CountVowels {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Please enter a word:");
+		System.out.println("Please don't enter any words, ok? Or else...:");
 
 		String word = sc.next();
 		Character[] vowels = new Character[] { 'a', 'e', 'i', 'o', 'u', 'y' };
